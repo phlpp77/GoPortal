@@ -21,11 +21,12 @@ struct ARViewContainer: UIViewRepresentable {
         let arView = ARView(frame: .zero)
         
         // Load the room scene from the "Experience" Reality File
-        let roomAnchor = try! Experience.loadRoom()
-//        let elementAnchor = try! Experience.load
+        let portalAnchor = try! Experience.loadPortal()
+//        let roomAnchor = try! Experience.loadRoom()
         
         // Add the box anchor to the scene
-        arView.scene.anchors.append(roomAnchor)
+        arView.scene.anchors.append(portalAnchor)
+//        arView.scene.anchors.append(roomAnchor)
         
         return arView
         
