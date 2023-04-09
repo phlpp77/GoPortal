@@ -16,7 +16,7 @@ struct OverviewView: View {
         TabView {
             NavigationStack {
                 NavigationLink("AR Experience") {
-                    ContentView()
+                    ContentView(score: $score)
                 }
                 
             }

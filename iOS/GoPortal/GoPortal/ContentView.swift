@@ -19,11 +19,13 @@ struct ContentView : View {
     
     @State var showAdvertisement = false
     
+    @Binding var score: Int
+    
     var body: some View {
         ZStack {
             
             
-            PortalARView(text: $feedbackText, showModal: $showAdvertisement)
+            PortalARView(text: $feedbackText, showModal: $showAdvertisement, score: $score)
                 .ignoresSafeArea()
             
             Image("border")
@@ -63,6 +65,7 @@ struct PortalARView: UIViewRepresentable {
     
     @Binding var text: String
     @Binding var showModal: Bool
+    @Binding var score: Int
     
     func makeUIView(context: Context) -> ARView {
         
@@ -72,6 +75,7 @@ struct PortalARView: UIViewRepresentable {
         portalAnchor.actions.roomOpened.onAction = { _ in
             print("worked.... roomOpened")
             text = "room opened!"
+            score += 5
             
             
         }
@@ -98,7 +102,7 @@ struct PortalARView: UIViewRepresentable {
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(score: .constant(10))
     }
 }
 #endif

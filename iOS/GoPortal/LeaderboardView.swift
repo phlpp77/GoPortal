@@ -13,13 +13,30 @@ struct LeaderboardView: View {
     
     var body: some View {
         NavigationStack {
-            List {
-                LeaderboardLineView(name: "Player One", score: $score)
-                LeaderboardLineView(name: "Not really your friend", score: .constant(9))
-                LeaderboardLineView(name: "Other guy", score: .constant(6))
-                LeaderboardLineView(name: "Sister", score: .constant(3))
-                LeaderboardLineView(name: "Mom", score: .constant(-2))
+            
+//            VStack() {
+//                HStack {
+//                    Spacer()
+//                    Image(systemName: "trophy")
+//                        .font(.system(size: 60))
+//                        .foregroundColor(.accentColor)
+//                    Spacer()
+//                }
+//                .padding(.top, 2)
+              
+//                .background(Color("backgroundGray"))
+                    
+                
+                List {
+                    LeaderboardLineView(name: "Player One", score: $score)
+                    LeaderboardLineView(name: "Not really your friend", score: .constant(9))
+                    LeaderboardLineView(name: "Other guy", score: .constant(6))
+                    LeaderboardLineView(name: "Sister", score: .constant(3))
+                    LeaderboardLineView(name: "Mom", score: .constant(-2))
                 }
+//            }
+//            .padding(.vertical, 10)
+            
             .navigationTitle("Leaderboard")
             }
             
