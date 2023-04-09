@@ -41,7 +41,7 @@
 		17A564D029E1CB5100758215 = {
 			isa = PBXGroup;
 			children = (
-				17A564DB29E1CB5100758215 /* VibeSensAr */,
+				17A564DB29E1CB5100758215 /* GoPortal */,
 				17A564DA29E1CB5100758215 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,7 +54,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		17A564DB29E1CB5100758215 /* VibeSensAr */ = {
+		17A564DB29E1CB5100758215 /* GoPortal */ = {
 			isa = PBXGroup;
 			children = (
 				17A564DC29E1CB5100758215 /* AppDelegate.swift */,
@@ -65,7 +65,7 @@
 				17A564E229E1CB5300758215 /* Assets.xcassets */,
 				17A564E429E1CB5300758215 /* Preview Content */,
 			);
-			path = VibeSensAr;
+			name = GoPortal;
 			sourceTree = "<group>";
 		};
 		17A564E429E1CB5300758215 /* Preview Content */ = {
