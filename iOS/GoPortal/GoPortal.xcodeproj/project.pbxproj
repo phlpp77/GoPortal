@@ -14,6 +14,7 @@
 		17A564E629E1CB5300758215 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A564E529E1CB5300758215 /* Preview Assets.xcassets */; };
 		17A564ED29E1CD3700758215 /* HapticsHelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A564EC29E1CD3700758215 /* HapticsHelperView.swift */; };
 		17A564EF29E1CD9B00758215 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A564EE29E1CD9B00758215 /* OverviewView.swift */; };
+		17CA9BBB29E265D4008C12D0 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CA9BBA29E265D4008C12D0 /* LeaderboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		17A564E529E1CB5300758215 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17A564EC29E1CD3700758215 /* HapticsHelperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HapticsHelperView.swift; path = GoPortal/HapticsHelperView.swift; sourceTree = "<group>"; };
 		17A564EE29E1CD9B00758215 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OverviewView.swift; path = GoPortal/OverviewView.swift; sourceTree = "<group>"; };
+		17CA9BBA29E265D4008C12D0 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				17A564DC29E1CB5100758215 /* AppDelegate.swift */,
 				17A564EE29E1CD9B00758215 /* OverviewView.swift */,
+				17CA9BBA29E265D4008C12D0 /* LeaderboardView.swift */,
 				17A564DE29E1CB5100758215 /* ContentView.swift */,
 				17A564EC29E1CD3700758215 /* HapticsHelperView.swift */,
 				17A564E029E1CB5100758215 /* Experience.rcproject */,
@@ -151,6 +154,7 @@
 				17A564ED29E1CD3700758215 /* HapticsHelperView.swift in Sources */,
 				17A564DD29E1CB5100758215 /* AppDelegate.swift in Sources */,
 				17A564EF29E1CD9B00758215 /* OverviewView.swift in Sources */,
+				17CA9BBB29E265D4008C12D0 /* LeaderboardView.swift in Sources */,
 				17A564E129E1CB5100758215 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

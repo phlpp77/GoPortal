@@ -52,6 +52,7 @@ struct ContentView : View {
             
             
         }
+        .toolbar(.hidden, for: .tabBar)
         .navigationBarTitle("Find the Portal!")
         .foregroundColor(.black)
 //        .toolbarBackground(Color.black, for: .navigationBar)

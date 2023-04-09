@@ -8,17 +8,29 @@
 import SwiftUI
 
 struct OverviewView: View {
+    
+    @State var score = 10
+    
     var body: some View {
         
-     
+        TabView {
             NavigationStack {
                 NavigationLink("AR Experience") {
                     ContentView()
                 }
+                
             }
             .accentColor(.black)
-  
-        
+            .tabItem {
+                    Label("Map", systemImage: "map")
+                }
+            LeaderboardView(score: $score)
+                .tabItem {
+                        Label("Leaderboard", systemImage: "trophy")
+                    }
+            
+            
+        }
         
     }
 }
