@@ -9,11 +9,17 @@ import SwiftUI
 
 struct OverviewView: View {
     var body: some View {
-        NavigationStack {
-            NavigationLink("AR Experience") {
-                ContentView()
+        
+     
+            NavigationStack {
+                NavigationLink("AR Experience") {
+                    ContentView()
+                }
             }
-        }
+            .accentColor(.black)
+  
+        
+        
     }
 }
 

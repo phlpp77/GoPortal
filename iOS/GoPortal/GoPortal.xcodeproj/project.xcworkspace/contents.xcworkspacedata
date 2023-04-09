@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/philipp/projects/VibeSensAR/iOS/VibeSensAr/GoPortal.xcodeproj">
+      location = "self:../GoPortal">
    </FileRef>
 </Workspace>

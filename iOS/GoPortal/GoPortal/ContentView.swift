@@ -26,9 +26,13 @@ struct ContentView : View {
             PortalARView(text: $feedbackText, showModal: $showAdvertisement)
                 .ignoresSafeArea()
             
+            Image("border")
+                .ignoresSafeArea()
+                .allowsHitTesting(false)
+            
             
             VStack {
-                Text(feedbackText)
+//                Text(feedbackText)
                 Spacer()
             }
             .sheet(isPresented: $showAdvertisement) {
@@ -48,6 +52,9 @@ struct ContentView : View {
             
             
         }
+        .navigationBarTitle("Find the Portal!")
+        .foregroundColor(.black)
+//        .toolbarBackground(Color.black, for: .navigationBar)
     }
 }
 
