@@ -15,6 +15,7 @@
 		17A564ED29E1CD3700758215 /* HapticsHelperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A564EC29E1CD3700758215 /* HapticsHelperView.swift */; };
 		17A564EF29E1CD9B00758215 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A564EE29E1CD9B00758215 /* OverviewView.swift */; };
 		17CA9BBB29E265D4008C12D0 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CA9BBA29E265D4008C12D0 /* LeaderboardView.swift */; };
+		17CA9BBD29E26FBA008C12D0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CA9BBC29E26FBA008C12D0 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		17A564EC29E1CD3700758215 /* HapticsHelperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HapticsHelperView.swift; path = GoPortal/HapticsHelperView.swift; sourceTree = "<group>"; };
 		17A564EE29E1CD9B00758215 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OverviewView.swift; path = GoPortal/OverviewView.swift; sourceTree = "<group>"; };
 		17CA9BBA29E265D4008C12D0 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		17CA9BBC29E26FBA008C12D0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				17A564DC29E1CB5100758215 /* AppDelegate.swift */,
+				17CA9BBC29E26FBA008C12D0 /* MapView.swift */,
 				17A564EE29E1CD9B00758215 /* OverviewView.swift */,
 				17CA9BBA29E265D4008C12D0 /* LeaderboardView.swift */,
 				17A564DE29E1CB5100758215 /* ContentView.swift */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17CA9BBD29E26FBA008C12D0 /* MapView.swift in Sources */,
 				17A564DF29E1CB5100758215 /* ContentView.swift in Sources */,
 				17A564ED29E1CD3700758215 /* HapticsHelperView.swift in Sources */,
 				17A564DD29E1CB5100758215 /* AppDelegate.swift in Sources */,

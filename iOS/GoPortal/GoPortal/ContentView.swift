@@ -56,6 +56,7 @@ struct ContentView : View {
         }
         .toolbar(.hidden, for: .tabBar)
         .navigationBarTitle("Find the Portal!")
+        .navigationBarTitleDisplayMode(.inline)
         .foregroundColor(.black)
 //        .toolbarBackground(Color.black, for: .navigationBar)
     }
@@ -67,6 +68,8 @@ struct PortalARView: UIViewRepresentable {
     @Binding var showModal: Bool
     @Binding var score: Int
     
+    @State private var feedback = UINotificationFeedbackGenerator()
+    
     func makeUIView(context: Context) -> ARView {
         
         let arView = ARView(frame: .zero)
@@ -76,6 +79,7 @@ struct PortalARView: UIViewRepresentable {
             print("worked.... roomOpened")
             text = "room opened!"
             score += 5
+            feedback.notificationOccurred(.success)
             
             
         }

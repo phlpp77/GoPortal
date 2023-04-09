@@ -14,13 +14,8 @@ struct OverviewView: View {
     var body: some View {
         
         TabView {
-            NavigationStack {
-                NavigationLink("AR Experience") {
-                    ContentView(score: $score)
-                }
-                
-            }
-            .accentColor(.black)
+            MapView(score: $score)
+            
             .tabItem {
                     Label("Map", systemImage: "map")
                 }

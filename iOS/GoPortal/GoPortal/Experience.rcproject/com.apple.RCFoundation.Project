@@ -354,31 +354,26 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationSpeed" : 1,
-                                          "audioGain" : 1,
-                                          "clipDuration" : 0,
-                                          "clipStart" : 0,
+                                          "animationStyle" : "playful",
+                                          "duration" : 3.3024280071258545,
+                                          "emphasisAnimationType" : "float",
                                           "iterations" : 1,
-                                          "multiplePerformType" : "ignore request",
-                                          "muteAudio" : false,
-                                          "reversed" : false,
-                                          "reverses" : false,
                                           "target" : [
                                             "8F8BA2A4-1F95-4522-9273-72311A80FDE0"
                                           ]
                                         },
                                         "name" : {
-                                          "type" : "startAnimate"
+                                          "type" : "emphasis"
                                         }
                                       },
-                                      "identifier" : "B0BB84FD-E04D-40C6-8B40-60753073B81C",
+                                      "identifier" : "D30AE49B-DAFA-474D-B96E-63325011CC02",
                                       "isEnabled" : true
                                     }
                                   ],
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "7E0DCC9E-8CC7-439B-B849-C60C0261FF33",
+                              "identifier" : "DA4484C2-397B-444D-9FF2-73E3A453C6A8",
                               "isEnabled" : true
                             }
                           ],
@@ -658,7 +653,7 @@
                                 "url",
                                 {
                                   "typeName" : "String",
-                                  "value" : "model:c8e1ba9bf406f27003d43fe99d82bb76\/room%20with%20three%20window%20sides.usdz"
+                                  "value" : "model:308c08c40e22b72daa8294dc8ff8af9b\/Tech%20tower%20room%20fin2.usdz"
                                 }
                               ],
                               [
@@ -678,7 +673,7 @@
                                 "RuntimeIdentifier",
                                 {
                                   "typeName" : "UUID",
-                                  "value" : "F4221A40-8BE9-42DF-B98B-9F3337C1C4AA"
+                                  "value" : "936ADB06-C43E-467B-8884-116EEE858B8B"
                                 }
                               ]
                             ]
@@ -1052,21 +1047,21 @@
               "title" : "Portal",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.99859535694122314,
-                  -3.6755537280441786e-08,
-                  -0.052983507513999939,
+                  0.8542751669883728,
+                  -3.4372270363292046e-08,
+                  -0.51982110738754272,
                   0,
-                  -0.025489309802651405,
-                  0.87667572498321533,
-                  -0.48040616512298584,
+                  -0.25276142358779907,
+                  0.87382137775421143,
+                  -0.41538891196250916,
                   0,
-                  0.046449337154626846,
-                  0.48108160495758057,
-                  0.87544447183609009,
+                  0.45423087477684021,
+                  0.4862467348575592,
+                  0.74648410081863403,
                   0,
-                  1.3127073049545288,
-                  3.4317002296447754,
-                  4.0858292579650879,
+                  7.8664145469665527,
+                  8.4740133285522461,
+                  7.1923513412475586,
                   1
                 ],
                 "sceneTransform" : [
