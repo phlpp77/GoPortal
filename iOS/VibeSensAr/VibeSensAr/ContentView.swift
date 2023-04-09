@@ -29,20 +29,25 @@ struct ContentView : View {
             
             VStack {
                 Button("Stop") {
-             
+                    
                     print("Actions are stopped.")
                     feedbackText = "button pressed!"
                 }
-
+                
                 Text(feedbackText)
                 Spacer()
             }
             .sheet(isPresented: $showAdvertisement) {
                 VStack {
                     Text("Use the following code to get a discount at McDonald's!")
+                        .font(.title3)
                     Text("#34as23TG")
                         .font(.title2)
+                        .textSelection(.enabled)
                 }
+                .padding(28)
+                .presentationDetents([.medium])
+                .presentationDragIndicator(.visible)
                 
                 
             }

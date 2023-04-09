@@ -38,5 +38,30 @@
     "libraryIdentifier" : "6b5815ca8638c3891edc2a0d0547469b",
     "format" : "model",
     "displayName" : "portal-try.usdz"
+  },
+  {
+    "libraryIdentifier" : "aa6f405473852d18e66882e5cd969007",
+    "format" : "model",
+    "displayName" : "Coke can.usdz"
+  },
+  {
+    "libraryIdentifier" : "9dbb755255d971d5e72b4a7959bfebfd",
+    "format" : "model",
+    "displayName" : "ReflectiveBlue_portal.usdz"
+  },
+  {
+    "libraryIdentifier" : "1ae56fba9006f70d0b08cf6e91d5ec81",
+    "format" : "model",
+    "displayName" : "portal-try-3.usdz"
+  },
+  {
+    "libraryIdentifier" : "4856e731d75659dedf9777eb7aea021a",
+    "format" : "model",
+    "displayName" : "portal-try-4.usdz"
+  },
+  {
+    "libraryIdentifier" : "c8e1ba9bf406f27003d43fe99d82bb76",
+    "format" : "model",
+    "displayName" : "room with three window sides.usdz"
   }
 ]
