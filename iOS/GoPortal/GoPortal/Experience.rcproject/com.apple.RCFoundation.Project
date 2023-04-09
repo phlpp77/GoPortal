@@ -43,7 +43,9 @@
                                           "target" : [
                                             "776A5820-C110-4225-9AB3-546678D0FFEB",
                                             "17A83DB8-6621-494A-B5C9-BC5A8A32BF06",
-                                            "8F8BA2A4-1F95-4522-9273-72311A80FDE0"
+                                            "8F8BA2A4-1F95-4522-9273-72311A80FDE0",
+                                            "9DBE30B2-BFAB-4559-8952-0A817ABABD2A",
+                                            "01236E7A-3A88-40BA-BAD9-DEBAA6AEAD9A"
                                           ]
                                         },
                                         "name" : {
@@ -196,9 +198,11 @@
                                           "moveEase" : "easeInOut",
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "776A5820-C110-4225-9AB3-546678D0FFEB",
                                             "17A83DB8-6621-494A-B5C9-BC5A8A32BF06",
-                                            "8F8BA2A4-1F95-4522-9273-72311A80FDE0"
+                                            "8F8BA2A4-1F95-4522-9273-72311A80FDE0",
+                                            "776A5820-C110-4225-9AB3-546678D0FFEB",
+                                            "01236E7A-3A88-40BA-BAD9-DEBAA6AEAD9A",
+                                            "9DBE30B2-BFAB-4559-8952-0A817ABABD2A"
                                           ]
                                         },
                                         "name" : {
@@ -355,11 +359,11 @@
                                       "configurationBox" : {
                                         "configuration" : {
                                           "animationStyle" : "playful",
-                                          "duration" : 3.3024280071258545,
+                                          "duration" : 6.2300000190734863,
                                           "emphasisAnimationType" : "float",
                                           "iterations" : 1,
                                           "target" : [
-                                            "8F8BA2A4-1F95-4522-9273-72311A80FDE0"
+                                            "9DBE30B2-BFAB-4559-8952-0A817ABABD2A"
                                           ]
                                         },
                                         "name" : {
@@ -390,16 +394,16 @@
                       "isEnabled" : true,
                       "isLooping" : false,
                       "isModal" : false,
-                      "name" : "Coke Can",
+                      "name" : "Buzz",
                       "triggers" : [
                         {
                           "__content" : [
                             {
                               "configurationBox" : {
                                 "configuration" : {
-                                  "distance" : 0.51179319620132446,
+                                  "distance" : 0.71935242414474487,
                                   "target" : [
-                                    "8F8BA2A4-1F95-4522-9273-72311A80FDE0"
+                                    "9DBE30B2-BFAB-4559-8952-0A817ABABD2A"
                                   ],
                                   "type" : 0
                                 },
@@ -759,7 +763,7 @@
                                 "url",
                                 {
                                   "typeName" : "String",
-                                  "value" : "model:aa6f405473852d18e66882e5cd969007\/Coke%20can.usdz"
+                                  "value" : "model:96a85a7cfb2fa82a73cf39d5f6083414\/buzz%20base.usdz"
                                 }
                               ],
                               [
@@ -779,7 +783,7 @@
                                 "RuntimeIdentifier",
                                 {
                                   "typeName" : "UUID",
-                                  "value" : "4377D9DB-7FEA-442C-A35B-578BBDF6E985"
+                                  "value" : "FBEDA91B-1ABC-481F-A5AA-5A19A1C6403A"
                                 }
                               ]
                             ]
@@ -822,21 +826,127 @@
                     },
                     "transform" : {
                       "matrix" : [
-                        0.068219557404518127,
+                        0.043403379619121552,
                         0,
                         0,
                         0,
                         0,
-                        0.068219557404518127,
+                        0.043403379619121552,
                         0,
                         0,
                         0,
                         0,
-                        0.068219557404518127,
+                        0.043403379619121552,
                         0,
-                        0.80334299802780151,
-                        0.58732002973556519,
-                        -3.74745774269104,
+                        0.84874027967453003,
+                        0.65257108211517334,
+                        -3.7474584579467773,
+                        1
+                      ]
+                    }
+                  },
+                  "740C6087-CA1D-42D1-B77D-4B03C236A7E0" : {
+                    "overrides" : {
+                      "children" : {
+                        "USDScene" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "includeSceneScaling",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : false
+                                }
+                              ],
+                              [
+                                "subpath",
+                                {
+                                  "typeName" : "String",
+                                  "value" : ""
+                                }
+                              ],
+                              [
+                                "url",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "model:d02c30865e3123d09bab97ac814025e7\/buzz.usdz"
+                                }
+                              ],
+                              [
+                                "withDescendants",
+                                {
+                                  "typeName" : "Bool",
+                                  "value" : true
+                                }
+                              ]
+                            ],
+                            "factory" : {
+                              "identifier" : "com.apple.af.FileImportAssetFactory",
+                              "version" : "0.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "21003FC4-A86F-4261-B261-529E389614BC"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "9DBE30B2-BFAB-4559-8952-0A817ABABD2A"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.15883606672286987,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.15883606672286987,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.15883606672286987,
+                        0,
+                        0.84837228059768677,
+                        0.49616953730583191,
+                        -3.7757942676544189,
                         1
                       ]
                     }
@@ -1047,21 +1157,21 @@
               "title" : "Portal",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.8542751669883728,
-                  -3.4372270363292046e-08,
-                  -0.51982110738754272,
+                  0.99984478950500488,
+                  -3.4711515439767027e-08,
+                  -0.01761903427541256,
                   0,
-                  -0.25276142358779907,
-                  0.87382137775421143,
-                  -0.41538891196250916,
+                  -0.0035666543990373611,
+                  0.97929513454437256,
+                  -0.20240618288516998,
                   0,
-                  0.45423087477684021,
-                  0.4862467348575592,
-                  0.74648410081863403,
+                  0.017254192382097244,
+                  0.20243717730045319,
+                  0.97914326190948486,
                   0,
-                  7.8664145469665527,
-                  8.4740133285522461,
-                  7.1923513412475586,
+                  1.8400133848190308,
+                  2.6683349609375,
+                  6.607935905456543,
                   1
                 ],
                 "sceneTransform" : [

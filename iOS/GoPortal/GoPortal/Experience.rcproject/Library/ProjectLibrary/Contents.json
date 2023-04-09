@@ -68,5 +68,15 @@
     "libraryIdentifier" : "308c08c40e22b72daa8294dc8ff8af9b",
     "format" : "model",
     "displayName" : "Tech tower room fin2.usdz"
+  },
+  {
+    "libraryIdentifier" : "96a85a7cfb2fa82a73cf39d5f6083414",
+    "format" : "model",
+    "displayName" : "buzz base.usdz"
+  },
+  {
+    "libraryIdentifier" : "d02c30865e3123d09bab97ac814025e7",
+    "format" : "model",
+    "displayName" : "buzz.usdz"
   }
 ]
