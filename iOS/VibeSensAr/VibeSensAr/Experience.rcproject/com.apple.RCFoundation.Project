@@ -309,7 +309,7 @@
                       "isEnabled" : true,
                       "isLooping" : false,
                       "isModal" : false,
-                      "name" : "Table",
+                      "name" : "Advertisement",
                       "triggers" : [
                         {
                           "__content" : [
@@ -411,97 +411,6 @@
                                 "name" : "proximity"
                               },
                               "identifier" : "C31B6FE6-094E-4FDB-B3AE-2B358BB5C28E",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        }
-                      ]
-                    }
-                  ],
-                  "__version" : 3
-                },
-                {
-                  "__content" : [
-                    {
-                      "accessibility" : {
-                        "__content" : [
-                          {
-                            "isEnabled" : false
-                          }
-                        ],
-                        "__version" : 1
-                      },
-                      "actionGroups" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "angularCoefficient" : 1,
-                                          "animationStyle" : "basic",
-                                          "buildOutAnimationType" : "none",
-                                          "distance" : 1,
-                                          "duration" : 1,
-                                          "fadeOut" : true,
-                                          "linearCoefficient" : 1,
-                                          "moveEase" : "easeInOut",
-                                          "respectPhysics" : false,
-                                          "target" : [
-                                            "776A5820-C110-4225-9AB3-546678D0FFEB",
-                                            "17A83DB8-6621-494A-B5C9-BC5A8A32BF06",
-                                            "8F8BA2A4-1F95-4522-9273-72311A80FDE0",
-                                            "01236E7A-3A88-40BA-BAD9-DEBAA6AEAD9A"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "hide"
-                                        }
-                                      },
-                                      "identifier" : "DCBA8E43-441B-4285-90CB-71E13526617E",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "16584163-5D00-4436-A0BB-6AF4A935F490",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        }
-                      ],
-                      "color" : [
-                        0.56078433990478516,
-                        0.47058823704719543,
-                        0.80392158031463623,
-                        1
-                      ],
-                      "identifier" : "5B12E159-9B63-4206-85B4-915472721176",
-                      "isEnabled" : true,
-                      "isLooping" : false,
-                      "isModal" : false,
-                      "name" : "Behavior",
-                      "triggers" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurationBox" : {
-                                "configuration" : {
-                                  "distance" : 1.0998653173446655,
-                                  "target" : [
-                                    "90E1E2FE-E94E-4DF8-8D6F-75F4E67CE9D0"
-                                  ],
-                                  "type" : 0
-                                },
-                                "name" : "proximity"
-                              },
-                              "identifier" : "9DC9551B-A240-408C-869C-50A1C5DFE328",
                               "isEnabled" : true
                             }
                           ],
@@ -1143,21 +1052,21 @@
               "title" : "Portal",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.98549145460128784,
-                  1.4822200355979476e-08,
-                  -0.16972488164901733,
+                  0.91298747062683105,
+                  -3.5475071769042188e-08,
+                  -0.40798762440681458,
                   0,
-                  -0.057655226439237595,
-                  0.94053435325622559,
-                  -0.33477005362510681,
+                  -0.17067113518714905,
+                  0.90829765796661377,
+                  -0.38192513585090637,
                   0,
-                  0.15963223576545715,
-                  0.33969852328300476,
-                  0.92688864469528198,
+                  0.3705742359161377,
+                  0.41832447052001953,
+                  0.82926446199417114,
                   0,
-                  2.2773022651672363,
-                  5.2705626487731934,
-                  5.4670896530151367,
+                  2.7358458042144775,
+                  3.9919772148132324,
+                  2.9998846054077148,
                   1
                 ],
                 "sceneTransform" : [

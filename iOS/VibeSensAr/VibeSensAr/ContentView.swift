@@ -28,12 +28,6 @@ struct ContentView : View {
             
             
             VStack {
-                Button("Stop") {
-                    
-                    print("Actions are stopped.")
-                    feedbackText = "button pressed!"
-                }
-                
                 Text(feedbackText)
                 Spacer()
             }
