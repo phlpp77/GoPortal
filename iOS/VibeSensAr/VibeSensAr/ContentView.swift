@@ -9,54 +9,84 @@ import SwiftUI
 import RealityKit
 
 struct ContentView : View {
-    @State var completion: ((Entity?) -> ()) = { _ in }
-    @State var arView = ARView(frame: .zero)
-    @State var boxScene = try! Experience.loadPortal()
+    
+    
     @State var feedbackText = "No update"
+    
+    @State var roomScene = try! Experience.loadRoom()
+    
+    @State var portalScene = true
+    
+    @State var showAdvertisement = false
     
     var body: some View {
         ZStack {
-            ARViewContainer(arView: $arView, boxScene: $boxScene)
+            
+            
+            PortalARView(text: $feedbackText, showModal: $showAdvertisement)
                 .ignoresSafeArea()
+            
+            
             VStack {
                 Button("Stop") {
-                    //                        boxScene.steelBox?.stopAllAudio()              // 1
-                    //                        boxScene.steelBox?.stopAllAnimations()         // 1
+             
                     print("Actions are stopped.")
-                    //
-                    completion = {
-                        print("completion done")
-                        $0?.stopAllAudio()
-                        feedbackText = "Room opened"
-                    }
-                    //                            $0?.stopAllAudio()                         // 2
-                    //                            $0?.stopAllAnimations()                    // 2
-                    //                            $0?.scale = [1,15,1]
-                    //                            print("Both actions were completely stopped.")
-                    //                        }
-                    //
-                    boxScene.actions.roomOpened.onAction = completion
-                    //                        boxScene.actions.occured.onAction = completion
+                    feedbackText = "button pressed!"
                 }
+
                 Text(feedbackText)
                 Spacer()
             }
+            .sheet(isPresented: $showAdvertisement) {
+                VStack {
+                    Text("Use the following code to get a discount at McDonald's!")
+                    Text("#34as23TG")
+                        .font(.title2)
+                }
+                
+                
+            }
+            
+            
         }
     }
 }
 
-struct ARViewContainer: UIViewRepresentable {
+struct PortalARView: UIViewRepresentable {
     
-    @Binding var arView: ARView
-    @Binding var boxScene: Experience.Portal
+    @Binding var text: String
+    @Binding var showModal: Bool
     
     func makeUIView(context: Context) -> ARView {
-        arView.scene.anchors.append(boxScene)
+        
+        let arView = ARView(frame: .zero)
+        let portalAnchor = try! Experience.loadPortal()
+        
+        portalAnchor.actions.roomOpened.onAction = { _ in
+            print("worked.... roomOpened")
+            text = "room opened!"
+            
+            
+        }
+        
+        
+        portalAnchor.actions.tableTapped.onAction = { _ in
+            print("Table tapped!")
+            text = "tabled tapped!!! Fuck yes!"
+            showModal.toggle()
+        }
+        
+        arView.scene.anchors.append(portalAnchor)
+        
+        
+        
         return arView
     }
     func updateUIView(_ view: ARView, context: Context) { }
     
 }
+
+
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {

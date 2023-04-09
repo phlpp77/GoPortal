@@ -23,5 +23,20 @@
     "libraryIdentifier" : "445a7905a17c074cd4c0fdd1984f455c",
     "format" : "model",
     "displayName" : "Room Design6.usdz"
+  },
+  {
+    "libraryIdentifier" : "063fbba1e1740fc8e9652b8fe67cdde0",
+    "format" : "model",
+    "displayName" : "room for scale.usdz"
+  },
+  {
+    "libraryIdentifier" : "64dd3cc5f4b9f11c3623a010483fc4a9",
+    "format" : "model",
+    "displayName" : "smaller room for scale.usdz"
+  },
+  {
+    "libraryIdentifier" : "6b5815ca8638c3891edc2a0d0547469b",
+    "format" : "model",
+    "displayName" : "portal-try.usdz"
   }
 ]
