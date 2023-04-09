@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17A564D929E1CB5100758215 /* VibeSensAr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibeSensAr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A564D929E1CB5100758215 /* GoPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A564DC29E1CB5100758215 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17A564DE29E1CB5100758215 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17A564E029E1CB5100758215 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		17A564DA29E1CB5100758215 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17A564D929E1CB5100758215 /* VibeSensAr.app */,
+				17A564D929E1CB5100758215 /* GoPortal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17A564D829E1CB5100758215 /* VibeSensAr */ = {
+		17A564D829E1CB5100758215 /* GoPortal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17A564E929E1CB5300758215 /* Build configuration list for PBXNativeTarget "VibeSensAr" */;
+			buildConfigurationList = 17A564E929E1CB5300758215 /* Build configuration list for PBXNativeTarget "GoPortal" */;
 			buildPhases = (
 				17A564D529E1CB5100758215 /* Sources */,
 				17A564D629E1CB5100758215 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = VibeSensAr;
+			name = GoPortal;
 			productName = VibeSensAr;
-			productReference = 17A564D929E1CB5100758215 /* VibeSensAr.app */;
+			productReference = 17A564D929E1CB5100758215 /* GoPortal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 17A564D429E1CB5100758215 /* Build configuration list for PBXProject "VibeSensAr" */;
+			buildConfigurationList = 17A564D429E1CB5100758215 /* Build configuration list for PBXProject "GoPortal" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17A564D829E1CB5100758215 /* VibeSensAr */,
+				17A564D829E1CB5100758215 /* GoPortal */,
 			);
 		};
 /* End PBXProject section */
@@ -336,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17A564D429E1CB5100758215 /* Build configuration list for PBXProject "VibeSensAr" */ = {
+		17A564D429E1CB5100758215 /* Build configuration list for PBXProject "GoPortal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17A564E729E1CB5300758215 /* Debug */,
@@ -345,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17A564E929E1CB5300758215 /* Build configuration list for PBXNativeTarget "VibeSensAr" */ = {
+		17A564E929E1CB5300758215 /* Build configuration list for PBXNativeTarget "GoPortal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17A564EA29E1CB5300758215 /* Debug */,
